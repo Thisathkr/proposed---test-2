@@ -6,7 +6,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.B, function () {
-    count += 1
+    count += -1
     if (count < 0) {
         count = 0
         basic.showNumber(count)
